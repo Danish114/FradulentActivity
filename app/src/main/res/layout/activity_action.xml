@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Action">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundnew">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backgroundchamber"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="80"
+                        android:padding="20dp"
+                        android:text="@string/action"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/backgroundchamber"
+                        app:srcCompat="@drawable/ic_up_arrow" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/headingbackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+                            <ImageButton
+                                android:id="@+id/imageButton223"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="@string/driverblacklist"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton8"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                android:src="@drawable/radio_selected"
+                                />
+
+                            <TextView
+                                android:id="@+id/txtview"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView9"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton10"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton11"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView20"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/remarks_premier_motor_gasoline"
+                                android:layout_width="0dp"
+                                android:layout_height="60dp"
+                                android:layout_weight="80"
+                                android:hint="@string/remarks"
+                                android:textColor="@color/colorWhite"
+                                android:textColorHint="@color/colorWhite"
+                                android:textSize="14dp"
+                                android:layout_marginRight="5dp"
+                                android:maxLines="3"
+                                android:lines="2"
+                                android:minLines="2"
+                                android:textAlignment="viewStart"
+                                android:gravity="top"
+                                android:padding="5dp"
+                                android:inputType="textMultiLine"
+                                tools:ignore="RtlCompat">
+                            </EditText>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton20"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="Tank Lori black list"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton21"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton22"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/txtview30"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView90"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton100"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView160"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton110"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView170"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView180"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText0"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView190"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText20"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView200"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText30"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:ems="10"
+                                android:hint="@string/enterRemarks"
+                                android:inputType="textPersonName"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton200"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView210"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="Transport Agreement Suspension"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton81"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton91"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/txtview1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView91"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton101"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView161"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton111"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView171"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView181"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView191"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText21"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView201"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText31"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:ems="10"
+                                android:hint="@string/enterRemarks"
+                                android:inputType="textPersonName"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/button_cover"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/back"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:background="@drawable/button_round_red"
+                            android:textColor="@color/colorWhite"
+                            android:gravity="center"
+                            android:layout_gravity="left"
+                            android:paddingLeft="45dp"
+                            android:paddingRight="45dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:text="Back">
+                        </Button>
+
+                        <Button
+                            android:id="@+id/save"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:background="@drawable/button_round_green"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:paddingLeft="45dp"
+                            android:layout_centerHorizontal="true"
+                            android:paddingRight="45dp"
+                            android:layout_toRightOf="@+id/Back"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginRight="15dp"
+                            android:text="Save">
+                        </Button>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/backgroundchamber"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="80"
+                        android:padding="20dp"
+                        android:text="System"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/backgroundchamber"
+                        app:srcCompat="@drawable/ic_up_arrow" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@color/headingbackground">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton222"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView230"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="@string/driverblacklist"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton82"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton93"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/txtview23"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView94"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton104"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView163"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton113"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView173"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView184"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText4"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView194"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText24"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView204"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText34"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:hint="@string/enterRemarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton205"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView255"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="Tank Lori black list"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton215"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton225"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/txtview305"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView906"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton1006"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView1606"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton1106"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView1706"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView1801"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText01"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView1901"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText201"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView2001"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText301"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:hint="@string/enterRemarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="10dp"
+                            android:background="@color/backgroundnew"
+                            android:orientation="horizontal"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton2001"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/textView2101"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="70"
+                                android:paddingLeft="10dp"
+                                android:text="Transport Agreement Suspension"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton811"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:backgroundTint="@color/backgroundnew"
+                                app:srcCompat="@drawable/ic_up_arrow" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <ImageButton
+                                android:id="@+id/imageButton912"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:backgroundTint="@color/headingbackground"
+                                app:srcCompat="@drawable/radio_selected" />
+
+                            <TextView
+                                android:id="@+id/txtview12"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="90"
+                                android:paddingLeft="10dp"
+                                android:text="@string/newImmediateEffect"
+                                android:textColor="@android:color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView912"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="33"
+                                android:text="@string/timePeriod"
+                                android:textColor="@android:color/white" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="33"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton1012"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_selected" />
+
+                                <TextView
+                                    android:id="@+id/textView1612"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="23"
+                                    android:text="@string/specify"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="34"
+                                android:orientation="horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/imageButton1112"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="10"
+                                    android:backgroundTint="@color/headingbackground"
+                                    app:srcCompat="@drawable/radio_unselected" />
+
+                                <TextView
+                                    android:id="@+id/textView1712"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="24"
+                                    android:text="@string/unspecified"
+                                    android:textColor="@android:color/white" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="55"
+                                android:orientation="horizontal"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView1812"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:text="@string/fromdate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText12"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="50"
+                                    android:background="@color/backgroundnew"
+                                    android:backgroundTint="@color/backgroundnew"
+                                    android:ems="10"
+                                    android:inputType="date" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="45"
+                                android:orientation="horizontal"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp"
+                                android:paddingRight="10dp"
+                                android:paddingBottom="10dp"
+                                android:weightSum="100">
+
+                                <TextView
+                                    android:id="@+id/textView1912"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_weight="40"
+                                    android:text="@string/todate"
+                                    android:textColor="@android:color/white" />
+
+                                <EditText
+                                    android:id="@+id/editText212"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="60"
+                                    android:background="@color/backgroundnew"
+                                    android:ems="10" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:padding="10dp"
+                            android:weightSum="100">
+
+                            <TextView
+                                android:id="@+id/textView2012"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:layout_weight="20"
+                                android:text="@string/remarks"
+                                android:textColor="@android:color/white"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/editText312"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:ems="10"
+                                android:hint="@string/enterRemarks"
+                                android:inputType="textPersonName"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

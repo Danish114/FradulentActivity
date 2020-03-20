@@ -1,17 +1,57 @@
 <resources>
-    <string name="app_name">FradulentActivity</string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Planty</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="penaltylori">Penalty-Tank Lori 1234</string>
+    <string name="fradulentActivityNO">Fradulent Activity No.</string>
+    <string name="fradulentActivityName">ABC123</string>
+    <string name="carriage">Carriage</string>
+    <string name="stnInvociceNo">STN/Invoice No</string>
+    <string name="documentDate">Doc Date</string>
+    <string name="fromSupplyPoint">From Supply Point</string>
+    <string name="toSupplyPoint">To Supply Pont</string>
+    <string name="driver">Driver</string>
+    <string name="date">12/11/2011</string>
+    <string name="fromSupplyPointname">ABC Point</string>
+    <string name="toSupplyPointname">XYZ point</string>
+    <string name="stnInvoicename">ABC 123</string>
+    <string name="drivername">ABC 123</string>
+    <string name="fakeDipChart">Fake Dip Chart</string>
+    <string name="todo">TODO</string>
+    <string name="chamber">Chamber</string>
+    <string name="fradulentActivity">Fradulent Activity - User Input</string>
+    <string name="involvementin">Involvement In</string>
+    <string name="quantity">Quantity</string>
+    <string name="remark">Remarks</string>
+    <string name="attachment">Attachments</string>
+    <string name="reason">Reason</string>
+    <string name="penaltyClause">Penalty Clause</string>
+    <string name="penaltyCaseNo">Penalty Case no</string>
+    <string name="penalty">Penalty</string>
+    <string name="surchargePerLitre">Surcharge/Litre</string>
+    <string name="system">System Define</string>
+    <string name="logisticHead">Logistic @ Head Office-Mr.ABC on 20/02/2020</string>
+    <string name="addmoreresason">Add More Reason</string>
+    <string name="accountpayable">A/C Payable @ Head Office</string>
+    <string name="action">Action</string>
+    <string name="driverblacklist">Driver Black List</string>
+    <string name="newImmediateEffect">With Immediate Effect</string>
+    <string name="timePeriod">Time Period</string>
+    <string name="specify">Specified</string>
+    <string name="unspecified">Un-Specified</string>
+    <string name="fromdate">From Date</string>
+    <string name="todate">To Date</string>
+    <string name="remarks">Remarks</string>
+    <string name="enterRemarks">Enter your remarks</string>
+
+    <string name="button_save">Save</string>
+
+    <string name="button_cancel">Cancel</string>
+
+    <string name="button_clear">Clear</string>
+    <string name="saveButton">Save</string>
+    <string name="penaltypercentofproductcost">Penalty % of Product Cost</string>
+    <string name="lumsum">Lumsum</string>
+    <string name="total">Total</string>
+
 </resources>

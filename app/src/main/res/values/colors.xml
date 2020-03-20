@@ -3,4 +3,17 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="background">#30333C</color>
+    <color name="toolbar">#0B0B0B</color>
+    <color name="red">#D40707</color>
+    <color name="option_menu_inner_layout">#44444c</color>
+    <color name="colorButton">#cbdf30</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="backgroundnew">#30333C</color>
+    <color name="dashboard_color">#30333a</color>
+    <color name="backgroundchamber">#1E1D23</color>
+    <color name="headingbackground">#44424D</color>
+    <color name="backgroundbutton">#1C2029</color>
+    <color name="option_menu_et">#767677</color>
+    <color name="color_btn">#262b33</color>
 </resources>

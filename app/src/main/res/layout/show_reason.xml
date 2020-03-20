@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Theme.Transparent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/menu_option_bg">
+                <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Reason 123"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                <ImageButton
+                    android:id="@+id/imgbtnCancelShowReason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_round_red"
+                    android:src="@drawable/ic_closebutton" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/option_menu_inner_bg"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/curve_shape"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="User"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editTextShowUser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:inputType="textCapCharacters"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:maxLines="1"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text=""
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="User Department"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowUserDepartment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="Penalty Clause"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowPenaltyClause"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="Surcharge per Litre"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowSurchargePerLitre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="55"
+                        android:text="Penalty % of Product Cost"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="45"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowPenaltyPercentOfProduct"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="Lumsum"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowLumsum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="40"
+                        android:text="Total"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/editTextShowtotal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="center_vertical"
+                            android:inputType="textCapCharacters"
+                            android:lines="1"
+                            android:maxLength="20"
+                            android:maxLines="1"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text=""
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="40"
+                        android:text="@string/remarks"
+                        android:textColor="@color/colorWhite" />
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:background="@color/dashboard_color"
+                        android:orientation="horizontal">
+                            <EditText
+                                android:id="@+id/editTextShowRemarks"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@android:color/transparent"
+                                android:gravity="top|left"
+                                android:inputType="textCapCharacters"
+                                android:lines="5"
+                                android:maxLength="200"
+                                android:maxLines="6"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text=""
+                                android:textColor="@color/colorWhite"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal"
+                        android:weightSum="90">
+                        <Button
+                            android:id="@+id/buttonSaveShowReason"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="30"
+                            android:background="@color/color_btn"
+                            android:text="Save"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite" />
+                        <Button
+                            android:id="@+id/buttonCancelReason"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="30"
+                            android:background="@color/color_btn"
+                            android:text="@string/button_cancel"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite" />
+                        <Button
+                            android:id="@+id/buttonClearShowReason"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="30"
+                            android:background="@color/color_btn"
+                            android:text="Clear"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
